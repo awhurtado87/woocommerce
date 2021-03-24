@@ -20,7 +20,7 @@ module.exports = function (/* ctx */) {
     // --> boot files are part of "main.js"
     // https://v1.quasar.dev/quasar-cli/boot-files
     boot: [
-      
+
       'axios',
     ],
 
@@ -32,7 +32,7 @@ module.exports = function (/* ctx */) {
     // https://github.com/quasarframework/quasar/tree/dev/extras
     extras: [
       // 'ionicons-v4',
-      // 'mdi-v5',
+      'mdi-v5',
       // 'fontawesome-v5',
       // 'eva-icons',
       // 'themify',
@@ -80,7 +80,7 @@ module.exports = function (/* ctx */) {
 
     // https://v1.quasar.dev/quasar-cli/quasar-conf-js#Property%3A-framework
     framework: {
-      iconSet: 'material-icons', // Quasar icon set
+      iconSet: 'mdi-v5', // Quasar icon set
       lang: 'en-us', // Quasar language pack
       config: {},
 
